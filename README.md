@@ -32,3 +32,14 @@ A lightweight Python tool that scans HTTP access logs to detect suspicious activ
 The tool generates a `security_report.csv` with columns:
 - `IP Address`
 - `Failed Attempts`
+
+Example :
+
+| IP Address | Failed Attempts |
+|-------------|-------------|
+| `5.134.128.102` | 176 |
+| `37.9.113.152` | 309 |
+| `5.45.207.88` | 27 |
+| `37.9.113.36` | 62 |
+| `37.9.113.126` | 117 |
+
